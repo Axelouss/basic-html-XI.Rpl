@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Berita</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f4f4f4;
+        }
+
+        /* header */
+        header{
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* menu yg diatas */
+        nav{
+            background-color: #2563eb;
+            padding: 10px;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            margin: 0 15px;
+        }
+
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover{
+            color: yellow;
+        }
+
+        /* artikel */
+        .container{
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        article{
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        article h2{
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        article p{
+            line-height: 1.6;
+        }
+
+        /* footer */
+        footer{
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <h1>PORTAL BERITA HARI INI</h1>
+        <p>Menyajikan informasi terbaru dan terpercaya</p>
+    </header>
+
+    <!-- teks menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Teknologi</a></li>
+            <li><a href="#">Pendidikan</a></li>
+            <li><a href="#">Olahraga</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- artikel -->
+    <div class="container">
+
+        <article>
+            <h2>Perkembangan Teknologi AI di Tahun 2026</h2>
+            <p>
+                Teknologi kecerdasan buatan semakin berkembang pesat dan mulai digunakan
+                dalam berbagai bidang seperti pendidikan, kesehatan, dan industri.
+            </p>
+        </article>
+
+        <article>
+            <h2>Pendidikan Digital Semakin Populer</h2>
+            <p>
+                Banyak sekolah mulai menerapkan pembelajaran berbasis digital untuk
+                meningkatkan kemampuan siswa di era modern.
+            </p>
+        </article>
+
+        <article>
+            <h2>Tim Nasional Menang Besar</h2>
+            <p>
+                Tim nasional berhasil meraih kemenangan dalam pertandingan internasional
+                dengan skor yang memuaskan para pendukung.
+            </p>
+        </article>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2026 Portal Berita | Dibuat oleh Kevin</p>
+    </footer>
+
+</body>
+</html>
